@@ -25,6 +25,12 @@ const OurSpecialities = () => {
       subText: "Change your car"
     },
     {
+      id: 3,
+      title: "Electric Car",
+      icon: <MdElectricCar />,
+      subText: "Change your car"
+    },
+    {
       id: 4,
       title: "Fitness/Gym",
       icon: <MdFitnessCenter />,
