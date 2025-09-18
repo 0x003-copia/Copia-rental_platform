@@ -36,6 +36,12 @@ const OurSpecialities = () => {
       icon: <FaSailboat />,
       subText: "Take a trip"
     },
+    {
+      id: 6,
+      title: "Boat Morning",
+      icon: <FaSailboat />,
+      subText: "Take a trip"
+    },
   ];
   return (
     <>
