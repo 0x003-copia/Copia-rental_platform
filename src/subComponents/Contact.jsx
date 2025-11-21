@@ -20,6 +20,10 @@ const SubContact = () => {
             <p>Address</p>
             <span>House No.123 Sector A-1</span>
           </div>
+          <div>
+            <p>Address</p>
+            <span>House No.123 Sector A-1</span>
+          </div>
           <ul>
           <Link to={"/facebook"} target="_blank"><RiFacebookBoxLine/></Link>
           <Link to={"/facebook"} target="_blank"><RiFacebookBoxLine/></Link>
