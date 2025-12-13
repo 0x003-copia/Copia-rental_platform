@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prepare": "node ./src/server/app.js",
+    "prepare": "node ./src/server/app.js | vite",
     "server": "node ./src/server/app.js"
   },
   "dependencies": {
